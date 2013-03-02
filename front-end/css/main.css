@@ -1,0 +1,54 @@
+/**
+ *
+ */
+
+body, html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+
+  background-color: #282828;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#242424), to(#2d2d2d));
+  background-image: -webkit-linear-gradient(top, #242424, #2d2d2d);
+  background-image: -moz-linear-gradient(top, #242424, #2d2d2d);
+  background-image: -ms-linear-gradient(top, #242424, #2d2d2d);
+  background-image: linear-gradient(top, #242424, #2d2d2d);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#242424', EndColorStr='#2d2d2d');
+
+  color: #ececec;
+}
+
+h1, h2, h3, h4, h5 {
+  text-shadow: 0 0 2px #000;
+  font-family: 'Fjalla One';
+  margin: 15px 0 20px 0;
+}
+
+.main-container {
+  margin-top: 60px;
+}
+
+.navbar .brand {
+  padding-left: 0;
+}
+
+#income-graph {
+  margin-left: -18px;
+}
+
+tr td, tr th {
+  border-color: #707070 !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.loading {
+  background: url(../img/loading.gif) center center no-repeat;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="http://js.pusher.com/1.12/pusher.min.js" type="text/javascript"></script>
+    <script src="js/highcharts/highcharts.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" type="text/css" href="../node_modules/twitter-bootstrap/docs/assets/css/bootstrap.css" />
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+  </head>
+  <body>
+    <div class="wrapper loading">
+      <div class="main-container container hidden">
+        <div class="row graphs">
+          <div class="span12">
+            <h3>Revenue</h3>
+            <div id="income-graph"></div>
+          </div>
+        </div>
+        <div class="row graphs">
+          <div class="span6">
+            <h3>Currency</h3>
+            <div id="currency-graph"></div>
+          </div>
+          <div class="span6">
+            <h3>Transactions Received</h3>
+            <table id="events" class="table">
+              <thead>
+                <tr>
+                  <th>Time</th>
+                  <th>Amount</th>
+                  <th>Currency</th>
+                  <th>Card Type</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="none"><td colspan="4">No transactions yet</td></tr>
+                <!-- Events go here -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
